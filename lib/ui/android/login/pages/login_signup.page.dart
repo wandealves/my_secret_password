@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_secret_password/ui/widgets/circler_button.dart';
+import 'package:my_secret_password/ui/widgets/circle_button.dart';
 import 'package:my_secret_password/ui/widgets/custom_text_field.dart';
 
 class LoginSignupPage extends StatefulWidget {
@@ -59,7 +59,7 @@ class _LoginSignupPageState extends State<LoginSignupPage> {
           SizedBox(
             height: 40,
           ),
-          CiclerButton(
+          CicleButton(
             label: "SIGN UP",
           ),
         ],
